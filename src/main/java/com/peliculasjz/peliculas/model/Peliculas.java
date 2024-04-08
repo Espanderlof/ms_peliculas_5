@@ -44,22 +44,22 @@ public class Peliculas {
         return sinopsis;
     }
 
-    public Long setId(){
-        return id;
+    public void setId(Long id){
+        this.id = id;
     }
-    public String setTitulo(){
-        return titulo;
+    public void setTitulo(String titulo){
+        this.titulo = titulo;
     }
-    public int setYear(){
-        return year;
+    public void setYear(int year){
+        this.year = year;
     }   
-    public String setDirector(){
-        return director;
+    public void setDirector(String director){
+        this.director = director;
     }  
-    public String setGenero(){
-        return genero;
+    public void setGenero(String genero){
+        this.genero = genero;
     }   
-    public String setSinopsis(){
-        return sinopsis;
+    public void setSinopsis(String sinopsis){
+        this.sinopsis = sinopsis;
     }
 }
